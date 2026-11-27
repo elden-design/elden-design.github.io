@@ -13,6 +13,14 @@
 		<link rel="icon" type="image/png" href="images/favicon.png" />
 		<link rel="apple-touch-icon" href="images/favicon.png" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- My Work 갤러리: 한 줄에 4개 (태블릿 3개, 모바일 2개) -->
+		<style>
+			#work > .content { width: 90rem !important; max-width: 100% !important; }
+			#work > .content > header { max-width: 60rem; margin-left: auto; margin-right: auto; }
+			.gallery article { width: 25% !important; }
+			@media screen and (max-width: 980px) { .gallery article { width: 33.3333% !important; } }
+			@media screen and (max-width: 736px) { .gallery article { width: 50% !important; } }
+		</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
